@@ -1,0 +1,39 @@
+.layout-div {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  
+    .sidebar-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 15%; // Adjust as needed
+    }
+  
+    .children-div {
+      width: 85%; // Adjust as needed to match the sidebar width
+      background-color: #f0f0f0; // Example background color
+    }
+  
+    .appBar {
+      background-color: black;
+      color: white;
+    }
+  
+    .drawerHeader {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 16px; // Match with theme.spacing(2)
+    }
+  
+    .menuButton {
+      margin-right: 16px; // Moved from inline style to SCSS
+    }
+  
+    .logoutButton {
+      cursor: pointer; // Change cursor to pointer for better UX
+    }
+  }
+  

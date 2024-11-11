@@ -1,0 +1,36 @@
+@use '../../index' as *;
+
+.plan-form-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .plan-form-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: $theme-background;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    
+    .plan-form-outer-wrapper{
+        background-color: $theme-background;
+        border-radius: 12px;
+        padding: 20px;
+        width: 100%;
+
+        .plan-form-wrapper{
+            display: flex;
+            // display: grid;
+            // grid-template-columns: 1fr 1fr 1fr;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+}

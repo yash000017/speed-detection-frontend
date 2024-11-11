@@ -1,0 +1,61 @@
+# Dependency directories
+/node_modules/
+/bower_components/
+
+# Build output
+/build/
+/dist/
+/*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage directory created by Jest
+/coverage/
+
+# React Native
+# .expo/*
+# .vscode/*
+# .idea/*
+# .history/*
+
+# Optional npm cache directory
+.npm/
+
+# Yarn lock file (optional if you use yarn)
+yarn.lock
+
+# Visual Studio Code settings
+.vscode/
+
+# JetBrains IDE settings
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Jest cache
+jest-debug.log
+jest-test-results.json
+
+# TypeScript declaration files (can be included or excluded depending on your preference)
+*.d.ts
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE settings (VSCode, WebStorm, etc.)
+.idea/
+.vscode/
+
+# Webpack and parcel caches
+.cache/

@@ -1,0 +1,62 @@
+@use '../../index' as *;
+
+.first-breadcrumb { 
+  font-size: 20px !important;
+  color: $text-color;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.breadcrumb-slash {
+  font-size: 20px;
+  color: grey;
+//   font-family: variables.$montserrat-medium;
+  margin: 0 3px;
+}
+
+.link-to {
+  text-decoration: none;
+  font-size: 13px;
+  color: grey;
+  display: flex;
+  align-items: center;
+//   font-family: variables.$montserrat-medium;
+  
+  .link-breadcrumb {
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+    // font-family: variables.$montserrat-medium;
+  }
+}
+
+
+@media (max-width:1700px) {
+
+  .first-breadcrumb{
+    font-size: 26px;
+  }
+
+  .link-to{
+    .link-breadcrumb {
+      font-size: 14px !important;
+    }
+  }
+}
+
+
+@media (max-width:992px) {
+  .first-breadcrumb{
+    font-size: 20px;
+  }
+
+  .breadcrumb-slash {
+    font-size: 10px;
+  }
+
+  .link-to{
+    .link-breadcrumb {
+      font-size: 10px !important;
+    }
+  }
+}
